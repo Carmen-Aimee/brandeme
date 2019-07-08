@@ -1,0 +1,225 @@
+/* line 1, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* line 20, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+.max-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* line 26, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+.item {
+  width: 50%;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 26, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+  .item {
+    width: 33%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* line 26, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+  .item {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 26, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+  .item {
+    width: 16.6%;
+  }
+}
+
+/* line 40, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+.logo {
+  width: 100%;
+}
+
+/* line 44, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+.container {
+  position: fixed;
+  top: 0;
+  width: 94vw;
+  height: 94vh;
+  padding: 3vh 3vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 44, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+  .container {
+    width: 60vw;
+    padding: 3vh 28vw;
+  }
+}
+
+/* line 62, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+.x {
+  font-size: 7vw;
+  color: white;
+  position: fixed;
+  margin: 3vw;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 62, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+  .x {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* line 62, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+  .x {
+    font-size: 2.5vw;
+  }
+}
+
+/* line 74, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+.cover-wrap {
+  flex-grow: 2;
+  flex-basis: 100%;
+  margin: 5% 0;
+}
+
+@media screen and (min-width: 1024px) {
+  /* line 74, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+  .cover-wrap {
+    margin: 2% 0;
+  }
+}
+
+/* line 81, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+.descripcion p {
+  color: white;
+  text-align: justify;
+}
+
+/* line 85, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+.cover {
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  /* line 85, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+  .cover {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+/* line 91, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+.name {
+  flex-basis: 50%;
+  text-align: center;
+  display: inline-block;
+  font-size: 31px;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 91, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+  .name {
+    flex-basis: auto;
+  }
+}
+
+/* line 100, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+.logo-wrap {
+  width: 40%;
+  display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 100, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+  .logo-wrap {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* line 100, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+  .logo-wrap {
+    width: 15%;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 100, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+  .logo-wrap {
+    width: 15%;
+  }
+}
+
+/* line 113, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+.logo-wrap .logo {
+  flex-basis: 50%;
+  border-radius: 50% 50%;
+}
+
+/* line 117, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+.sm {
+  flex-grow: 2;
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 117, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+  .sm {
+    width: 50%;
+  }
+}
+
+/* line 126, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+.redes {
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 126, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+  .redes {
+    font-size: 25px;
+  }
+}
+
+/* line 132, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+.button {
+  margin-top: 5%;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 132, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+  .button {
+    margin-top: 1%;
+  }
+}
+
+/* line 137, ../../../../../wamp/www/PRUEBA/sass/estilo.sass */
+.button input {
+  border: none;
+  background: white;
+  color: black;
+  padding: 5% 10%;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
